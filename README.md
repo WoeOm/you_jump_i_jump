@@ -19,6 +19,10 @@
 ## 测试环境
 node 8
 chrome
+macOS
+
+## 截图
+![img](https://github.com/WoeOm/you_jump_i_jump/raw/master/screen.jpg)
 
 ## 问题
 提issue/pr
