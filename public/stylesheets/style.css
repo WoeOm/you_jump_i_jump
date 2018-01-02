@@ -1,22 +1,39 @@
 body {
-  padding: 20px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 img {
-  padding:0;
-  margin: 0;
-}
-a {
-  color: #00B7FF;
+    padding: 0;
+    margin: 0;
 }
 
-#screencap{
-  padding:0;
-  border: 1px solid #ccc;
+a {
+    color: #00B7FF;
+}
+
+#screencap {
+    padding: 0;
+    border: 1px solid red;
+}
+
+#screencap_start{
+    float: left;
+}
+
+#cv_box {
+    float: left;
+    height: 800px;
+    width:160px;
 }
 
 #screencap_box {
-  width: 310px;
-  float: left;
+    width: 310px;
+    float: left;
+    height: 800px;
+}
+
+#log {
+    float: left;
+    height: 800px;
 }

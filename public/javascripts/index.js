@@ -5,6 +5,10 @@ var jumpPoint = [];
 var jumpTip = ['起点', '终点']
 var $log = $('#log')
 var $screen = $('#screencap')
+var $screenStart = $('#screencap_start')
+var $screenEnd = $('#screencap_end')
+
+
 function jump(event) {
     var data = getXAndY(event);
     var x = data.x;
@@ -37,6 +41,8 @@ function jump(event) {
                     $log.append(result.error ? '环境没配对吧，我这里是好的' : 'yeah!')
                     setTimeout(function () {
                         $screen.attr('src', '/images/jump_screencap/screencap.png?v=' + Math.random())
+                        $screenStart.attr('src', '/images/jump_screencap/resultStart.png?v=' + Math.random())
+                        $screenEnd.attr('src', '/images/jump_screencap/resultEnd.png?v=' + Math.random())
 
                     }, 3000)
                 }
@@ -63,6 +69,8 @@ function f5() {
                 $log.append(result.error ? '环境没配对吧，我这里是好的' : '刷新成功!')
                 setTimeout(function () {
                     $screen.attr('src', '/images/jump_screencap/screencap.png?v=' + Math.random())
+                    $screenStart.attr('src', '/images/jump_screencap/resultStart.png?v=' + Math.random())
+                    $screenEnd.attr('src', '/images/jump_screencap/resultEnd.png?v=' + Math.random())
 
                 }, 2000)
             }
