@@ -4,7 +4,13 @@ var jump = require('../jump')
 
 /* GET home page. */
 router.get('/', async function(req, res, next) {
-  await jump.refreshScreencap()
+  try{
+      await jump.refreshScreencap()
+
+  } catch (e){
+    console.log(e)
+  }
+
   res.render('index', { title: 'Jump One Jump' });
 });
 

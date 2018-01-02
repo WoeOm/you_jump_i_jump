@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -14,4 +14,9 @@ a {
 #screencap{
   padding:0;
   border: 1px solid #ccc;
+}
+
+#screencap_box {
+  width: 310px;
+  float: left;
 }

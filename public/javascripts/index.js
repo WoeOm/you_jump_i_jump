@@ -36,7 +36,7 @@ function jump(event) {
                 success: function (result) {
                     $log.append(result.error ? '环境没配对吧，我这里是好的' : 'yeah!')
                     setTimeout(function () {
-                        $screen.attr('src', '/images/jump_screencap/screencap.jpg?v=' + Math.random())
+                        $screen.attr('src', '/images/jump_screencap/screencap.png?v=' + Math.random())
 
                     }, 3000)
                 }
