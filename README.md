@@ -5,7 +5,7 @@
 
 ## 使用方法
 ```
-1. 电脑安装adb   ===> brew install android-platform-tools
+1. 电脑安装adb   ===> brew cask install android-platform-tools
    cd you_jump_i_jump
    npm install
    npm start
