@@ -19,7 +19,7 @@ jumpGo = async (timeout) => {
 }
 
 fetchScreenCap = async () => {
-    const {stdout, stderr} = await exec(`${ADB_PATH} exec-out screencap -p > ${SCREENCAP_PATH}/screencap.png`)
+    const {stdout, stderr} = await exec(`${ADB_PATH} shell screencap -p ${SCREENCAP_REMOTE_PATH}`)
     console.log('fetch...')
 }
 
@@ -36,11 +36,13 @@ iJump = async (distance) => {
     await jumpGo(parseInt(distance * BOOM))
     await setTimeout(async() => {
         await fetchScreenCap()
+        await pullScreenCap()
     }, 2000)
 }
 
 refreshScreencap = async() => {
     await fetchScreenCap()
+    await pullScreenCap()
 }
 
 module.exports = {

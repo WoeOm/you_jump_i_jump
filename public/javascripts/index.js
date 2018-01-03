@@ -38,7 +38,7 @@ function jump(event) {
                     setTimeout(function () {
                         $screen.attr('src', '/images/jump_screencap/screencap.png?v=' + Math.random())
 
-                    }, 3000)
+                    }, 4000)
                 }
             },
         )
