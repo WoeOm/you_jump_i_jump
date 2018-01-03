@@ -40,8 +40,7 @@ function jump(event) {
 
                     }, 4000)
                 }
-            },
-        )
+            })
 
         jumpPoint.length = 0
     }
@@ -66,8 +65,7 @@ function f5() {
 
                 }, 2000)
             }
-        },
-    )
+        })
 }
 
 
