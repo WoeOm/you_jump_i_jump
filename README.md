@@ -28,8 +28,10 @@ macOS
 提issue/pr
 
 ## 新功能
-- [ ] 防作弊的策略
-- [ ] opencv 智能识别 自动跳~
+- [x] 防作弊的策略
+- [ ] opencv 智能识别 自动跳 70%
+
+https://github.com/WoeOm/you_jump_i_jump/tree/feature-opencv
 
 ## 结语
 玩的开心
