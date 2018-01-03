@@ -5,6 +5,7 @@
 
 ## 使用方法
 ```
+* 安装opencv -> https://opencv.org/
 1. 电脑安装adb   ===> brew cask install android-platform-tools
    cd you_jump_i_jump
    npm install
@@ -28,8 +29,8 @@ macOS
 提issue/pr
 
 ## 新功能
-- [ ] 防作弊的策略
-- [ ] opencv 智能识别 自动跳~
+- [x] 防作弊的策略 
+- [ ] opencv 智能识别 自动跳 70%
 
 ## 结语
 玩的开心
